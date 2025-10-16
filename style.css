@@ -1,3 +1,4 @@
+/* style.css */
 body {
   font-family: Arial, sans-serif;
   background: #f2f2f2;
@@ -6,11 +7,11 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  min-height: 100vh;
 }
 
 .container {
-  background: white;
+  background: #fff;
   padding: 30px;
   border-radius: 10px;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
@@ -36,6 +37,17 @@ input, select {
   margin-top: 5px;
   border: 1px solid #ccc;
   border-radius: 5px;
+  box-sizing: border-box;
+}
+
+ul {
+  margin-top: 10px;
+  padding-left: 20px;
+}
+
+ul li {
+  margin-bottom: 5px;
+  line-height: 1.4;
 }
 
 button {
@@ -43,11 +55,12 @@ button {
   width: 100%;
   padding: 10px;
   background: #0066cc;
-  color: white;
+  color: #fff;
   border: none;
   border-radius: 5px;
   cursor: pointer;
   font-size: 16px;
+  transition: background 0.3s ease;
 }
 
 button:hover {
@@ -58,4 +71,5 @@ button:hover {
   margin-top: 15px;
   text-align: center;
   font-weight: bold;
+  color: green;
 }

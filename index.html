@@ -3,15 +3,15 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Pesquisa habitual</title>
+  <title>Pesquisa Habitual</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <div class="container">
-    <h2>Pesquisa habitual sobre a prática de atividade física</h2>
+    <h2>Pesquisa Habitual sobre a Prática de Atividade Física</h2>
 
     <form id="formPesquisa">  
-      <label for="patente">Posto/graduação</label>
+      <label for="patente">Posto/Graduação</label>
       <select id="patente" name="patente" required>
         <option value="">Selecione...</option>
         <option value="Soldado">Soldado</option>
@@ -26,7 +26,7 @@
       </select>
 
       <label for="idade">Idade</label>
-      <input type="number" id="idade" name="idade" required>
+      <input type="number" id="idade" name="idade" required min="18">
 
       <label for="atividade">Nível de Atividade Física</label>
       <select id="atividade" name="atividade" required>
@@ -37,13 +37,13 @@
       </select>
 
       <ul>
-        <li>Sedentário - Realiza pouca ou nenhuma atividade física regular</li>
-        <li>Ativo - Realiza atividade física de forma regular, mas em níveis moderados</li>
-        <li>Muito Ativo - Pratica atividade física intensa e frequente, diariamente ou quase todos os dias</li>
+        <li><strong>Sedentário:</strong> Realiza pouca ou nenhuma atividade física regular</li>
+        <li><strong>Ativo:</strong> Realiza atividade física de forma regular, mas em níveis moderados</li>
+        <li><strong>Muito Ativo:</strong> Pratica atividade física intensa e frequente, diariamente ou quase todos os dias</li>
       </ul>
 
       <label for="tempoServico">Tempo de Serviço (em anos)</label>
-      <input type="number" id="tempoServico" name="tempoServico" required>
+      <input type="number" id="tempoServico" name="tempoServico" required min="0">
 
       <button type="submit">Enviar Resposta</button>
       <div class="msg" id="mensagem"></div>
