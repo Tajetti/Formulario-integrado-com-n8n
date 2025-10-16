@@ -6,11 +6,11 @@ Este projeto consiste em um **formulário web** que coleta informações de poli
 
 ## Estrutura do Projeto
 
-pesquisa-sedentarismo/
-│
-├─ index.html ← Formulário da pesquisa
-├─ script.js ← JavaScript para enviar os dados via POST
-└─ style.css ← Estilo opcional para o formulário
+pesquisa-sedentarismo/<br>
+│<br>
+├─ index.html ← Formulário da pesquisa<br>
+├─ script.js ← JavaScript para enviar os dados via POST<br>
+└─ style.css ← Estilo opcional para o formulário<br>
 
 
 ---
