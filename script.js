@@ -5,7 +5,6 @@ form.addEventListener('submit', async (e) => {
   e.preventDefault();
 
   const dados = {
-    nome: form.nome.value.trim(),
     patente: form.patente.value,
     idade: parseInt(form.idade.value),
     atividade: form.atividade.value,
