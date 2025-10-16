@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pesquisa habitual</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h2>Pesquisa habitual sobre a prática de atividade física</h2>
+
+    <form id="formPesquisa">
+      <label for="nome">Nome</label>
+      <input type="text" id="nome" name="nome" required>
+
+      <label for="patente">Posto/graduação</label>
+      <select id="patente" name="patente" required>
+        <option value="">Selecione...</option>
+        <option value="Soldado">Soldado</option>
+        <option value="Cabo">Cabo</option>
+        <option value="Sargento">Sargento</option>
+        <option value="Subtenente">Subtenente</option>
+        <option value="Tenente">Tenente</option>
+        <option value="Capitão">Capitão</option>
+        <option value="Major">Major</option>
+        <option value="Tenente-Coronel">Tenente-Coronel</option>
+        <option value="Coronel">Coronel</option>
+      </select>
+
+      <label for="idade">Idade</label>
+      <input type="number" id="idade" name="idade" required>
+
+      <label for="atividade">Nível de Atividade Física</label>
+      <select id="atividade" name="atividade" required>
+        <option value="">Selecione...</option>
+        <option value="Sedentário">Sedentário</option>
+        <option value="Ativo">Ativo</option>
+        <option value="Muito Ativo">Muito Ativo</option>
+      </select>
+
+      <label for="tempoServico">Tempo de Serviço (em anos)</label>
+      <input type="number" id="tempoServico" name="tempoServico" required>
+
+      <button type="submit">Enviar Resposta</button>
+      <div class="msg" id="mensagem"></div>
+    </form>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
