@@ -18,7 +18,6 @@ pesquisa-sedentarismo/<br>
 ## Funcionalidades do Formulário
 
 - Captura os seguintes campos:
-  - Nome
   - Posto/Graduação
   - Idade
   - Nível de atividade física (Sedentário, Ativo, Muito Ativo)
